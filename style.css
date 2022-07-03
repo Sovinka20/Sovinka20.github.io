@@ -1,0 +1,118 @@
+#header {
+font-size:15pt;
+font-family:Arial;
+color:grey;
+background:silver;
+text-align: center;
+}
+
+
+p{
+	margin-bottom: 0;
+	
+	
+}
+
+
+h2 {
+    font-size: 35pt; /* ������ ������ */
+    color: blue; /* ���� ������ */
+    margin-bottom: 0; /* ������ ����� */
+   }
+h3 {
+    font-size: 25pt; /* ������ ������ */
+    font-style: italic;
+    color: black; /* ���� ������ */
+    margin-left: 75px;
+	text-align: left;
+   }
+
+
+body {
+	
+font: 20pt Arial, sans-serif; 
+margin:0 0 0 0;
+  }
+  
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+	background-attachment: scroll;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+	
+    background-size: 600% 100%;
+    animation: gradient 50s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+a{
+color: black;
+font-size: 
+}
+
+a:link{
+text-decoration: none;}
+  a:visited {color: black; text-decoration: none;}
+  a:active { text-decoration: none;}
+  a:hover { color: grey; text-decoration: none;}
+  
+  .letter a{
+	color: grey;
+	
+}
+.letter a:hover { color: #DAA520; text-decoration: none;}
+
+
+	p{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
+
+  th, td{
+	  color: black;
+  }
+ 
+  /* Footer */
+footer.page-footer {
+    min-height: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+	border-radius: 5px;
+    background-image:
+        linear-gradient(45deg, transparent 50%, black 1%),
+        linear-gradient(-45deg, transparent 50%, black 1%),
+        linear-gradient(135deg, transparent 50%, black 1%),
+        linear-gradient(-135deg, transparent 50%, black 1%);
+    background-size: 5px 10px;
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+}
+.page-footer:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.page-footer .info {
+    float: left;
+}
+.page-footer .info img {
+    margin-right: 0.5em;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-shadow: 0 0 4px #c0392b;
+    transform: rotate(-5deg);
+}
+.page-footer .copyright {
+    float: right;
+    padding-top: 20px;
+    font-size: 12px;
+}
+

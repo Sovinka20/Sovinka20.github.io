@@ -2,10 +2,13 @@
 <html>
 <head>
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="gallery.css">
+<link rel="stylesheet" type="text/css" href="CSS/menu.css">
+<link rel="stylesheet" type="text/css" href="CSS/top.css">
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/gallery.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
-<script src="script_gallery.js"></script>
+
+<script src="JS/script_gallery.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Добро пожаловать</title>
@@ -16,9 +19,41 @@
 
 <body>
 
-<div id="header">
-Сайт разработан Герман Екатериной / Sovinka20
-</div>
+
+
+<!--
+  templateType: global_partial
+  label: Website header
+-->
+<header class="bg-primary-gradiant">
+  <div class="pt-10 pb-10 pl-0-lg pr-0-lg pl-10 pr-10 c-container m-auto ">
+    <ul class="list-style-type-none flex justify-between align-items-center m-0">
+      <li class="head-nav-item w-10-lg w-50">
+        <a href="#" class="head-nav-item-logo text-decoration-none text-white"><img src="Image/Logo.png" alt="OdinSchool" height="45" width="190"></a>
+      </li>
+      <li class="head-nav-item-button hidden-lg show-md w-50 text-right" id="navToggle">
+        <div class="glow-on-hover inline-block">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" class="text-white" fill="#fff" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+        </div>
+      </li>
+      <li class="show hidden-md w-50-lg w-100">
+        <ul id="navLinkBox" class="m-0 list-style-type-none flex-lg hidden justify-between align-items-center">
+          <li class="head-nav-item">
+            <a href="#" class="text-decoration-none text-white ">Герман Екатерина, 2015gev@gmail.com</a>
+          </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+<!-- begin Up-Down button -->
+<a class="up_down_btn" title="Наверх">&uarr;</a>
+<!-- end Up-Down button -->
 
 <div class="wrapper">
 
@@ -26,114 +61,114 @@
   <div class="container">
     <div class="card">
       <div class="card-image">
-        <a href="SL/0.jpg" data-fancybox="gallery" data-caption="C# certificate">
-          <img src="SL/0.jpg" alt="Image Gallery">
+        <a href="Image/SL/0.jpg" data-fancybox="gallery" data-caption="C# certificate">
+          <img src="Image/SL/0.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/1.jpg" data-fancybox="gallery" data-caption="C certificate">
-          <img src="SL/1.jpg" alt="Image Gallery">
+        <a href="Image/SL/1.jpg" data-fancybox="gallery" data-caption="C certificate">
+          <img src="Image/SL/1.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     
     <div class="card">
       <div class="card-image">
-        <a href="SL/3.jpg" data-fancybox="gallery" data-caption="Java certificate">
-          <img src="SL/3.jpg" alt="Image Gallery">
+        <a href="Image/SL/3.jpg" data-fancybox="gallery" data-caption="Java certificate">
+          <img src="Image/SL/3.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/4.jpg" data-fancybox="gallery" data-caption="C++ certificate">
-          <img src="SL/4.jpg" alt="Image Gallery">
+        <a href="Image/SL/4.jpg" data-fancybox="gallery" data-caption="C++ certificate">
+          <img src="Image/SL/4.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/5.jpg" data-fancybox="gallery" data-caption="CSS certificate">
-          <img src="SL/5.jpg" alt="Image Gallery">
+        <a href="Image/SL/5.jpg" data-fancybox="gallery" data-caption="CSS certificate">
+          <img src="Image/SL/5.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/6.jpg" data-fancybox="gallery" data-caption="HTML certificate">
-          <img src="SL/6.jpg" alt="Image Gallery">
+        <a href="Image/SL/6.jpg" data-fancybox="gallery" data-caption="HTML certificate">
+          <img src="Image/SL/6.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/7.jpg" data-fancybox="gallery" data-caption="JavaScript certificate">
-          <img src="SL/7.jpg" alt="Image Gallery">
+        <a href="Image/SL/7.jpg" data-fancybox="gallery" data-caption="JavaScript certificate">
+          <img src="Image/SL/7.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
     <div class="card">
       <div class="card-image">
-        <a href="SL/8.jpg" data-fancybox="gallery" data-caption="jQuery certificate">
-          <img src="SL/8.jpg" alt="Image Gallery">
+        <a href="Image/SL/8.jpg" data-fancybox="gallery" data-caption="jQuery certificate">
+          <img src="Image/SL/8.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/9.jpg" data-fancybox="gallery" data-caption="Fullstack certificate">
-          <img src="SL/9.jpg" alt="Image Gallery">
+        <a href="Image/SL/9.jpg" data-fancybox="gallery" data-caption="Fullstack certificate">
+          <img src="Image/SL/9.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/10.jpg" data-fancybox="gallery" data-caption="PHP certificate">
-          <img src="SL/10.jpg" alt="Image Gallery">
+        <a href="Image/SL/10.jpg" data-fancybox="gallery" data-caption="PHP certificate">
+          <img src="Image/SL/10.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/11.jpg" data-fancybox="gallery" data-caption="SQL certificate">
-          <img src="SL/11.jpg" alt="Image Gallery">
+        <a href="Image/SL/11.jpg" data-fancybox="gallery" data-caption="SQL certificate">
+          <img src="Image/SL/11.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/12.jpg" data-fancybox="gallery" data-caption="Python 3 certificate">
-          <img src="SL/12.jpg" alt="Image Gallery">
+        <a href="Image/SL/12.jpg" data-fancybox="gallery" data-caption="Python 3 certificate">
+          <img src="Image/SL/12.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/13.jpg" data-fancybox="gallery" data-caption="Ruby certificate">
-          <img src="SL/13.jpg" alt="Image Gallery">
+        <a href="Image/SL/13.jpg" data-fancybox="gallery" data-caption="Ruby certificate">
+          <img src="Image/SL/13.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/14.jpg" data-fancybox="gallery" data-caption="Swift 4 certificate">
-          <img src="SL/14.jpg" alt="Image Gallery">
+        <a href="Image/SL/14.jpg" data-fancybox="gallery" data-caption="Swift 4 certificate">
+          <img src="Image/SL/14.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/15.jpg" data-fancybox="gallery" data-caption="Data science certificate">
-          <img src="SL/15.jpg" alt="Image Gallery">
+        <a href="Image/SL/15.jpg" data-fancybox="gallery" data-caption="Data science certificate">
+          <img src="Image/SL/15.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
 	<div class="card">
       <div class="card-image">
-        <a href="SL/16.jpg" data-fancybox="gallery" data-caption="Machine learning certificate">
-          <img src="SL/16.jpg" alt="Image Gallery">
+        <a href="Image/SL/16.jpg" data-fancybox="gallery" data-caption="Machine learning certificate">
+          <img src="Image/SL/16.jpg" alt="Image Gallery">
         </a>
       </div>
     </div>
@@ -141,8 +176,7 @@
 </main>
 
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'></script><script  src="./script.js"></script>
+ 
 
 
 
@@ -164,16 +198,35 @@
 
 
 
-        <footer class="page-footer">
-            <section class="info">
-                Эл. почта: 2015gev@gmail.com
-            </section>
-            <section class="copyright">
-                © Герман Е. В. 2022
-            </section>
-        </footer>
+        
 		
-		
+	<footer class="footer bg-primary-gradiant">
+  <div class="c-container m-auto pt-50 pb-50 pl-10 pr-10 pl-0-lg pr-0-lg">
+    <div class="flex">
+      
+      <div class="w-66-lg w-100">
+        <div class="flex">
+          <div class="w-33">
+			<p>© 2022 Все права защищены.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+	  
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'></script>
+<script src="JS/menu.js"></script>
+<script src="JS/top.js"></script>
+
 </body> 
 
 </html>

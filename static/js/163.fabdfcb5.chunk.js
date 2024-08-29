@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_card_website=self.webpackChunkmy_card_website||[]).push([[163],{1163:(e,s,a)=>{e.exports=a.p+"static/media/manual.91d80f436e1197250c5f.md"}}]);

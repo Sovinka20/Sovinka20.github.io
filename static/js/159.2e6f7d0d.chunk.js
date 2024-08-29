@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_card_website=self.webpackChunkmy_card_website||[]).push([[159],{3159:(e,s,t)=>{e.exports=t.p+"static/media/settingVSCode.eeab9fb1869ef28f4726.md"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_card_website=self.webpackChunkmy_card_website||[]).push([[221],{4221:(e,s,c)=>{c.d(s,{createInfoServices:()=>a.v});var a=c(5607);c(2955)}}]);
